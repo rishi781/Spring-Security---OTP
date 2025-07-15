@@ -45,14 +45,21 @@ A Spring Boot web application that allows users to verify their email via a One-
 
 ## 📸 Screenshots
 
-| Email Entry Page | OTP Validation Page | Result Page |
-|------------------|---------------------|-------------|
-| ![Email Form](screensh<img width="1920" height="846" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/9045727e-af1d-4dbe-a179-854b3a7ab860" />
-ots/email-form.png) | ![OTP Validation](screenshots/ot<img width="1920" height="840" alt="Screenshot (513)" src="https://github.com/user-attachments/assets/4160b79f-9016-4df7-bfe3-fba8363164a7" />
-p-form.png) | ![Result](screenshots/re<img width="1920" height="852" alt="Screenshot (514)" src="https://github.com/user-attachments/assets/98798f46-9d9c-4ef7-822a-0d8c55604764" />
-sult-success.png) |
+- Email Entry Page:  
 
-> 💡 Place your actual screenshots in a `screenshots/` folder and update the paths above.
+<img width="1920" height="846" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/71a43a74-b899-4448-a11b-1118df0c9d3b" />
+
+---
+
+- OTP Validation Page: 
+
+<img width="1920" height="840" alt="Screenshot (513)" src="https://github.com/user-attachments/assets/28e2ff83-5024-4543-9482-377f244c8d47" />
+
+---
+
+- Result Page: 
+
+<img width="1920" height="852" alt="Screenshot (514)" src="https://github.com/user-attachments/assets/3e2cfce0-3714-4a08-a7ff-8faa915ea0f1" />
 
 ---
 
