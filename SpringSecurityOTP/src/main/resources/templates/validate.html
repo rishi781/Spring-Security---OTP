@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Validator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-br from-blue-100 to-blue-300 min-h-screen flex items-center justify-center font-sans">
+    <div class="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md">
+      <h3 class="text-2xl font-semibold text-center text-gray-800 mb-6">OTP Verification</h3>
+
+      <form action="verify" method="post" class="space-y-6">
+        <div>
+          <label for="otp" class="block text-sm font-medium text-gray-700 mb-1">Enter OTP</label>
+          <input
+            type="text"
+            id="otp"
+            name="otp"
+            required
+            maxlength="6"
+            placeholder="123456"
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg tracking-widest text-center focus:ring-2 focus:ring-blue-400 focus:outline-none"
+          />
+        </div>
+
+        <div>
+          <input
+            type="submit"
+            value="Validate"
+            class="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg cursor-pointer transition duration-200"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+
